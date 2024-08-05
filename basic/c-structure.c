@@ -1,24 +1,29 @@
 #include <stdio.h>  // Preprocessor directive to include standard input-output functions
 
 // Global variable declaration
+// data-type variableName
 int globalVariable = 10;
 
 // Function declaration (prototype)
+// return-type functionName
 void displayMessage();
 
-int main() {
-    // Local variable declaration
+void main() {  // program starts from heres
+    // variable declare
+    int newVariable;
+    // variable initialization
+    newVariable = 100;
+    // Local variable declaration and initialization
     int localVariable = 20;
-
     // Statements
     printf("Hello, World!\n");  // Print a message to the console
-    printf("Global Variable: %d\n", globalVariable);  // Print the global variable
-    printf("Local Variable: %d\n", localVariable);  // Print the local variable
+    printf("Global Variable: %d and local variable is %d \n", globalVariable, localVariable);  // Print the global variable
+    // printf("Local Variable: %d\n", localVariable);  // Print the local variable
 
     // Function call
     displayMessage();  // Call the displayMessage function
 
-    return 0;  // Return 0 to indicate successful execution
+    // return 1;  // Return 0 to indicate successful execution
 }
 
 // Function definition

@@ -11,6 +11,10 @@
         Use the formula for the area of a circle: 
         Area = π * radius^2
 */
+/*
+    Add comment in multiline
+    this is comment 1
+*/
 #include <stdio.h>
 #include <math.h>
 
