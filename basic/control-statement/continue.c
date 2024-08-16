@@ -2,10 +2,15 @@
 
 int main() {
     for (int i = 1; i <= 10; i++) {
-        if (i == 5) {
-            continue;  // Skip the rest of the loop for i == 5
+
+        // printf("%d \n", i);
+
+        if (i == 7) {
+            continue; // Exit the loop when i == 7
         }
-        printf("%d ", i);
+
+        printf("%d \n", i);
+        printf("hari \n");
     }
     return 0;
 }

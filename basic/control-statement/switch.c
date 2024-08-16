@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 int main() {
     int day;
-
     printf("Enter a number (1-7): ");
     scanf("%d", &day);
-
     switch (day) {
         case 1:
             printf("Monday\n");
@@ -30,6 +27,8 @@ int main() {
             break;
         default:
             printf("Invalid input\n");
+
+        printf("hari");
     }
 
     return 0;
