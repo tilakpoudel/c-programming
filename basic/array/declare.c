@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int numbers[5] = {10, 20, 30, 40, 50}; // Declaring and initializing an array
+    int numbers[6] = {10, 20, 30, 40, 50}; // Declaring and initializing an array
+
+    printf("%d\n", numbers[5]);
 
     // Printing the elements of the array
     printf("Array elements are:\n");
