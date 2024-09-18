@@ -1,3 +1,12 @@
+
+/*
+WAP to display following pattern
+*****
+*****
+*****
+*****
+*****
+*/
 #include <stdio.h>
 
 int main() {
