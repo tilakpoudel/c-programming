@@ -62,6 +62,7 @@ divisible by 7 but not by eleven.
 is divisible by 4 and divisible by 100 or 400.)
 6.  Write a program to read the values of coefficients a, b and c of a quadratic equation
 ax2+bx+c=0 and find roots of the equation.
+7. Write a C program to find input number is prime or composite.
 
 ## Lab4
 ### Objective(s):
@@ -72,7 +73,8 @@ between these two input numbers.
 2.  Write a program to find GCD (greatest common divisor or HCF) and LCM (least common multiple) of two numbers.
 3.  Write a program to display Fibonacci series of last term up to 300.
 4.  WAP to calculate the sum of the series `p+p^2+p^3+p^4+....+p^n`, where p is the base and n is the number of terms 
-4.  WAP to display the following patters:
+5.  Write a program in C to find all possible roots of quadratic equation ax^2+bx+c=0.
+6.  WAP to display the following patters:
 ```
 a. 
 
@@ -124,6 +126,13 @@ f.
   ***
  *****
 
+ g. 
+ 1  0   1   0   1
+    0   1   0   1
+        1   0   1
+            0   1
+                1
+
 ```
 
 ## Lab 5
@@ -136,6 +145,7 @@ f.
 4.  Write a program to read two matrices of order 3 * 2, add them and display the resultant matrix in matrix form.
 5.  Write a program to multiply two 3*3 matrix.
 6.  Write a program to read a string and check for palindrome without using string related function (a string is palindrome if its half is mirror by itself eg: abcdcba).
+7. Write a program to compute the sum of diagonal elements of a square matrix.
 
 ## Lab 6
 ### Objective(s):
@@ -147,6 +157,10 @@ f.
 3.  Define a function named fact() to calculate factorial of a number n and then write a program that uses this function fact() to calculate combination and permutation.
 4.  Write a recursive function to generate Fibonacci series.
 5.  Write a program that illustrates use of local, global and static variables.
+6.  Write a C program to calculate sum of the natural number up to N number using recursive function.
+7.  Write a C program to calculate following expression: 5x √(y^2 +5)
+8.  Write a program to find smallest number from the array using function.
+9.  
 
 ## Lab 7
 ### Objective(s):
@@ -173,6 +187,7 @@ f.
     UNIV
     UN
 ```
+11. Write a program to find the largest and smallest number in a list of N number using DMA.
 
 ## Lab 8
 ### Objective(s):
