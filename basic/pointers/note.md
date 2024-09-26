@@ -94,6 +94,7 @@ Declaration
 int **ptr2;
 Here, ptr2 is a pointer to a pointer that points to an integer.
 ```
+![alt text](resources/double-pointer.png)
 
 Example
 ```
@@ -202,6 +203,8 @@ Basic Concept:
 - A 2D array in C is essentially an array of arrays. For example, a 2D array of size m x n can be visualized as m arrays, each containing n elements.
 - A pointer can be used to navigate through the elements of the 2D array.
 
+![alt text](resources/2d-array-pointer.png)
+
 ```
 #include <stdio.h>
 
@@ -235,11 +238,66 @@ int main() {
 - The standard library provides functions like malloc, calloc, realloc, and free for dynamic memory management.
 
 ### Key Functions:
-- `malloc(size_t size)`: Allocates a block of memory of specified size (in bytes) and returns a pointer to the beginning of the block. The content of the allocated memory is uninitialized.
-- `calloc(size_t num, size_t size)`: Allocates memory for an array of num elements, each of a certain size (in bytes), and initializes all bytes to zero.
-- `realloc(void *ptr, size_t new_size)`: Resizes the memory block pointed to by ptr to new_size. It may move the block to a new location if the requested size is larger than the original.
-- `free(void *ptr)`: Frees the memory previously allocated by malloc, calloc, or realloc.
+1.  `malloc(size_t size)`: `memory allocation` Allocates a block of memory of specified size (in bytes) and returns a pointer to the beginning of the block. The content of the allocated memory is uninitialized.
 
+    Syntax: 
+    ```
+    ptr = (cast-type*) malloc(byte-size)
+
+    ptr = (int*) malloc(100 * sizeof(int));
+    Since the size of int is 4 bytes, this statement will allocate 400 bytes of memory. And, the pointer ptr holds the address of the first byte in the allocated memory.
+
+    If space is insufficient, allocation fails and returns a NULL pointer.
+    ```
+    ![alt text](resources/malloc.png)
+2. `calloc(size_t num, size_t size)`: Allocates memory for an array of num elements, each of a certain size (in bytes), and initializes all bytes to zero.
+    - “calloc” or “contiguous allocation” method in C is used to dynamically allocate the specified number of blocks of memory of the specified type. It is very much similar to malloc() but has two different points and these are:
+    - It initializes each block with a default value ‘0’.
+    - It has two parameters or arguments as compare to malloc().
+
+    Syntax of calloc() in C
+    ```
+    ptr = (cast-type*)calloc(n, element-size);
+    here, n is the no. of elements and element-size is the size of each element.
+    ```
+
+    For Example: 
+    ```
+    ptr = (float*) calloc(25, sizeof(float));
+    This statement allocates contiguous space in memory for 25 elements each with the size of the float.
+    ```
+    ![alt text](resources/calloc.png)
+3. `realloc(void *ptr, size_t new_size)`: Resizes the memory block pointed to by ptr to new_size. It may move the block to a new location if the requested size is larger than the original.
+    - “realloc” or “re-allocation” method in C is used to dynamically change the memory allocation of a previously allocated memory. 
+    -   In other words, if the memory previously allocated with the help of malloc or calloc is insufficient, realloc can be used to dynamically re-allocate memory. 
+    -   Re-allocation of memory maintains the already present value and new blocks will be initialized with the default garbage value.
+
+    Syntax of realloc() in C
+    ```
+    ptr = realloc(ptr, newSize);
+    where ptr is reallocated with new size 'newSize'.
+    ```
+    ![alt text](resources/realloc.png)
+
+4. `free(void *ptr)`: Frees the memory previously allocated by malloc, calloc, or realloc.
+
+    - “free” method in C is used to dynamically de-allocate the memory. 
+    -   The memory allocated using functions malloc() and calloc() is not de-allocated on their own. 
+    -   Hence the free() method is used, whenever the dynamic memory allocation takes place. 
+    -   It helps to reduce wastage of memory by freeing it.
+![alt text](resources/free.png)
+
+
+
+### Operations in pointer
+
+![alt text](resources/malloc-free-operation.png)
+
+### Malloc vs calloc
+
+![alt text](resources/malloc-vs-calloc.png)
+
+### Example of DMA
 ```
 #include <stdio.h>
 #include <stdlib.h>  // For malloc, free
