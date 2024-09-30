@@ -94,7 +94,7 @@ Declaration
 int **ptr2;
 Here, ptr2 is a pointer to a pointer that points to an integer.
 ```
-![alt text](resources/double-pointer.png)
+![double pointer](resources/double-pointer.png)
 
 Example
 ```
