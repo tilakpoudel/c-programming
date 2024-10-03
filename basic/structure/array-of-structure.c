@@ -7,6 +7,23 @@ struct Student {
 };
 
 int main() {
+
+        struct Student s1;
+        
+        // Ask input from user of student 1
+        printf("Enter student ID for student1 ");
+        scanf("%d", &s1.id);
+        printf("Enter student name for student1");
+        getchar(); // Clear the newline character from the input buffer
+        fgets(s1.name, sizeof(s1.name), stdin);
+
+        // Input grades for each student
+        for (int j = 0; j < 5; j++) {
+            printf("Enter grade for subject %d for student 1: ", j + 1);
+            scanf("%f", &s1.grades[j]);
+        }
+
+
     // Declare an array of structures
     struct Student students[3]; // Array to hold 3 student records
 

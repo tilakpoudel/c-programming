@@ -11,11 +11,17 @@ struct Book {
 int main() {
     // Declare and initialize a structure variable
     struct Book book1 = {
-        "The Great Gatsby",  // Direct assignment
-        "F. Scott Fitzgerald", 
-        1925,
+        "Bhagavad gita",  // Direct assignment
+        "Srila Vysas deva", 
+        0001,
         10.99
     };
+
+    struct Book book2;
+    strcpy(book2.title, "C programming");
+    strcpy(book2.author, "Richard");
+    book2.year_published = 2000;
+    book2.price = 12.05;
 
     // Display the structure values
     printf("Book Title: %s\n", book1.title);

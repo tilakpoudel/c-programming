@@ -11,6 +11,10 @@ float calculateArea(struct Rectangle rect) {
     return rect.length * rect.width;
 }
 
+float calculateAreaNormal(float length, float width) {
+    return length * width;
+}
+
 // Function to calculate the perimeter of the rectangle
 float calculatePerimeter(struct Rectangle rect) {
     return 2 * (rect.length + rect.width);
@@ -27,6 +31,7 @@ int main() {
 
     // Calculate and display the area and perimeter
     float area = calculateArea(rect);
+    float area = calculateAreaNormal(rect.length, rect.width);
     float perimeter = calculatePerimeter(rect);
 
     printf("Area of the rectangle: %.2f\n", area);
