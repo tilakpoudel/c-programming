@@ -15,6 +15,7 @@ int main() {
 
     // Size of the array (number of strings)
     int size = sizeof(arr) / sizeof(arr[0]);
+    // printf("size of array is %d %d", sizeof(arr), sizeof(arr[0]));
 
     // Printing each string using pointers
     printf("Array of strings:\n");
