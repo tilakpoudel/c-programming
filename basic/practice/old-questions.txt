@@ -1,0 +1,237 @@
+Old questions
+
+1.    What is C programming? [BCA-2016,2018,2019]
+
+2.    What are the features or characteristics of C? [BCA-2016,2018]
+
+3.    Why C is called a Mid-level programming language? [BCA-2016,2019]
+
+4.    Explain a brief history of C.
+
+5.    Explain the general structure of C. [BCA-2016,2018,2019]
+
+6.    Explain how can we execute a C program? [BCA-2016,2018,2019]
+
+7.    What are the comments in c.
+
+8.    What is a token? Explain different types of C tokens. [BCA  2018,2019]
+
+9.    Explain the term variable and constants. Explain the types of constants. [BCA  2017,2019]
+
+10. Explain escape sequence characters. [BCA  2016,2018,2019]
+
+11. What is Data Type? Explain various data types in C. [BCA-2016,2018.2019]
+
+12. What is an Operator? Explain various operators in C. [BCA-2016,2018,2019]
+
+13. Explain different types of input/output functions with syntax.[BCA-2016,2018,2019]
+
+14. Explain different types of Flow control or Control structure or statements in C. [BCA-2016,2019]
+
+15. Explain Decision Making or Control Statement.  [BCA  2018] Explain difference between if-else and switch case statement.
+
+16. Compare if-else with the ternary operator. [BCA  2017]
+
+17. What is Loop? Explain all types of loops in C with an example. [BCA-2016,2017,2018]
+
+18. Explain the difference between entry-controlled and exit-controlled loops with a suitable example. [BCA 2019]
+
+19. What are jump statements? Explain. [BCA-2016,2017,2018]
+
+20. Write a program to check whether a number is perfect or not. [BCA-2018,2019]
+
+21. Write a program to check whether a number is prime or not. [BCA  2016,2017]
+
+22. Write a program to find the factorial of a number.[BCA 2019]
+
+23. What is an Array? How is it different from an ordinary variable? Discuss rules to declare a one-dimensional array. [BCA-2016]
+
+24. What do you mean by an Array? What are the different types of Array? Explain the merits and demerits of array.[BCA 2018, BCA MJ-1 2022]
+
+25. What is a two-dimensional array? How it is different from a one-dimensional array? Give Syntax. [BCA 2019]
+
+26. Write a program to find the sum of left and right diagonal elements of a square matrix/2D array.[BCA 2016,2018]
+
+27. Write a program to find the transpose of a square matrix of 3x3 order. [BCA 2019]
+
+28. What is a string? Explain all types of string functions with examples.[BCA  2016,2017,2018]
+
+29. Write a program to check whether a string is Palindrome. [BCA  2018]
+
+30. Write a program to check vowels, Consonants and white spaces in a given text/string. [BCA  2016,2017]
+
+31. Explain various functions used for reading and writing strings.
+
+32. Write a program to find the length of a string.[BCA 2019]
+
+33. Write a program to compare two strings.
+
+34. What is function? Explain the difference between user-defined and library (built-in) functions. [BCA  2018, BCA MJ-1 2022]
+
+35. What is function? Explain at least two categories of function with examples. [BCA 2019]
+
+36. What is a recursion/recursive function [BCA 2019, BCA MJ-1 2022]? Write a program to find the factorial of a number using function recursion. [BCA  2016,2018]
+
+37. Explain /Differentiate call by value and call reference with an example. [BCA  2016,2018,2019, MJ-1 2022]
+
+38. Explain the Scope, Visibility and Lifetime of a variable.[BCA 2019]
+
+39. What is a pointer? How are they declared and initialized? [BCA MJ-1 2022] Write a program to check prime numbers using a pointer. [BCA  2018,2019]
+
+40. What is a pointer? What are its uses? Write a program to find the factorial of a number using a pointer. [BCA  2016]
+
+41. Explain the array of pointers. [BCA  2016]
+
+42. Write a program to create the structure of a student having fields Roll, name, and Marks. Input records and display them. [BCA  2016,2018]
+
+43. What is a union? How is it different from structure? [BCA  2016,2018,2019]
+
+44. How the structure is different from an array? Explain the terms ‘Array of Structure’  and ‘Nesting of structure’ with examples. [BCA 2019]
+
+45. Explain preprocessor directives. When do we use #define and #include? [BCA  2016,2017]
+
+46. Explain Macros. [BCA  2016]
+
+
+47. Explain file handling functions. [BCA  2016,2018,2019]
+
+48. Explain Dynamic Memory Allocation. [BCA MJ-1 2022]
+
+49. Explain Storage classes. (static, extern, auto, register). [BCA MJ-1 2022]
+
+50. Write a program to display the Fibonacci series. [ BCA MJ-1 2022]
+
+
+Practice questions
+
+1. What is software process model. Differentiate between cohesion and coupling in programming.. [1+4]
+
+2. How are built-in-function different from user defined function? Write a program in C that takes a string as input and find out the frequency of each character in the string. [2+3]
+
+3. Define an array. Write program to transpose the following matrix. [1+4]
+
+A = [
+	7	8	9	4
+	2	54	8	2
+	41	89	51	71
+]
+
+
+4. Differentiate between structure and union with example. [5]
+
+5.Define pointer. Write a program to read two integer X and Y and swap the contents of the variable x and Y using pointers.[1 + 4]
+
+6. What is DMA (Dynamic Memory Allocation)? Write a program to find the larges t and smallest number in a list of n numbers using DMA. [1+4]
+
+7. Explain any 4 graphics functions in C. WAP to draw two concentric circles with center (150, 150) and radii 150 and 200.
+
+8. What is structure? Write a C program to read 10 students with fields(roll_no, name, class, marks in 5 subjets) and display their records aling with percentage of marks obtained.[2 + 8]
+
+9. How do we declare a file in a C program? Mention the opening modes of file. Write a program that creates a file named “employee.dat” to keep record of N employees of a company and print the records in the ascending order of the employee_id. Employee record will be employee_id, name, designation and salary. [1 +1 + 8]
+
+10. What is one dimensional array? How is it initialized? Write a c program to fid the sumd of two matrix of order  m*n. [1 + 1 + 8]
+
+11. What are keywords? Explain the compiling process of C program. [1+4]
+
+12. Differentiate between iteration and recursion with example. [5]
+
+31. Define an array Write program to generate the following output using loop. [1+4]
+
+5 4 3 2 1
+5 4 3 2
+5 4 3
+5 4
+5
+
+14. Define operator. Explain any four types of operators available in C. [1+4]
+
+15. Why function is required in C programming? Write a program to find greatest number from the array of numbers entered by user using function. [1 + 4]
+
+16. Why DMA (Dynamic memory Allocation) is used in C language? Write a program to enter marks of 10 students in C-programming and count the marks between 45 and 60 from the array using DMA function. [1+4]
+
+17. Write a C program to draw following figure.
+A circle having radius 100 pixels and  center at a point (100, 100).
+A square having each side 100 pixel  and one corner is at a point (50, 75).
+
+18. What is union? Write a C program to enter bid, title, price, pages of 100 books into structure variable called book and sort them in descending order on the basis of their price with use of pointer. [2 + 8]
+
+19. What is the use of data file in C? Write a C program to accept 50 numbers from user and store them in odd.txt file(if number is odd) of even.txt file (if number is even) then display even numbers reading from even.dat file. [1 + 9]
+
+20. What is function? List its advantages. Explain the concept of call by value and call by reference with example. [1 + 2 + 7]
+
+21. Define programming language. What are the features of a good computer program?
+
+22. Differentiate between top-down and bottom-up approach. List the operators used in C on the basis of utility. Explain the concept of bitwise operator.
+
+23. Define program errors. Explain its type with examples.
+
+24. Define software process model. Explain spiral and water fall model with advantages and disadvantages.
+
+25. Write a C program to find input number is prime or composite.
+
+26.Describe fundamental data types in the C programming language. What are relational and logical operators? Explain their precedance, associativity and their uses with example.
+
+27. Write the difference between formatted I/O and unformitted I/O in C program. Write syntax for following functions.
+ getch()
+getchar()
+scanf()
+
+28. Write a C program to calculate the area of two concentric circles (one inside the other) and the area of the ring formed between them. The program should:
+
+29. Define a symbolic constant for π (pi).
+
+30. Declare and initialize variables for the radii of the two circles.
+
+31. Calculate and print the area of each circle and the ring.
+
+32. What is an expression? WAP to find the sum of the series:
+1 + x^2 + 3x^3 + 4x^4 + ……+nx^n
+
+33. WAP to read a number from user, count the number of even and odd digits contained in it and display number of odd and even count.
+
+34. WAP to display the following:
+5 	10 	15 	20 	25
+10 	15	20	25	30
+15	20	25	30	35
+20	25	30	35	40
+25	30	35	40	45
+
+35. What is meant by compilation . What is mean by interpretation? How do these two processes differ? 
+
+36. What is software process model? Differentiate between cohesion and coupling in programming.
+
+37. What are pre-processor directives? Explain compilation process with suitable block diagram.
+
+38. Why do we need to analyse the problem before solving it? Define tokens, expression and identifiers.
+
+39. Write down the syntax of a given function.
+printf()
+scanf()
+getchar()
+getch()
+
+40.Write a C program to calculate the compound interest. The program should:
+
+41.Define symbolic constants for the number of times interest is compounded annually.
+
+42.Declare and initialize variables for the principal amount, interest rate, and time period.
+- Calculate and print the compound interest.
+- Use formula: CI = P (1 + r/n)nt - P
+
+43. What do you mean by type conversion? Explain implicit and explicit type conversion with example.
+
+44. Compare switch-case with if-else ladder. Write a program to find the sum of numbers from 1 to 100 which are exactly divisible by 5 and not by 3.
+
+45. WAP to find the fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, 21,.....upto n.
+
+46. WAP to find X of the following series for the given value of p and n
+X = p - p^2 / 2 + p^3 / 3 - p^4 / 4…………. up to n
+
+47. WAP to print the following pattern:
+Gaurangas
+auranga
+urang
+ran
+a
+
+
